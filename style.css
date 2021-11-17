@@ -64,11 +64,19 @@ img{
     color: #72477A;
 }
 
-
 .btn-lg{
     background-color: #72477A;
     color: white;
-    border-radius: 8px;
+    padding: auto 30px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+.btn-lg:hover{
+    opacity: .9;
+    color: white;
 }
 
 label,input{
@@ -77,7 +85,7 @@ label,input{
 
 .imp{
     background:  #ECE0EE;
-    border-radius: 3px 50px 80px;
+    border-radius: 3px 50px 130px;
     
 }
 
