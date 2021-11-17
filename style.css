@@ -1,7 +1,29 @@
+html{
+    scroll-snap-type: y mandatory;
+    scroll-padding-top: 67px;
+    overflow-y: scroll; 
+
+}
+
+.child{
+    scroll-snap-align: start ;
+
+}
+
 .navbar{
     background-color: #72477A;
   
 } 
+
+.active{
+    color: white;
+    font-weight: bold;
+    
+}
+
+.active:hover{
+    color: white;
+}
 
 #showcase{
     background-image: url('img/mbcet.jpg');
