@@ -61,7 +61,7 @@ img{
     
 }
 
-.row div, h1, .row p, .para, .sub-heading{
+.row div, h1, h2, .row p, .para, .sub-heading{
     color: #72477A;
 }
 
@@ -69,7 +69,7 @@ img{
     background-color: #72477A;
     color: white;
     padding: auto 30px;
-    border-radius: 24px;
+    border-radius: 26px;
     display: flex;
     justify-content: space-evenly;
    
