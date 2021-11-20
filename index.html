@@ -18,8 +18,9 @@
     <meta name="keywords" content="IET MBCET, IET">
     <meta name="author" content="Diya Mariam Biju">
 
-    <link rel="icon" type="image/svg+xml" href="images/LOGO.svg">
-    <!--  <link rel="icon" type="image/png" href="/assets/images/favicon.png">   -->
+  <!--   <link rel="icon" type="image/x-icon" href="1637400426.ico"> -->
+
+     <link rel="icon" href="favicon_io (1)/favicon.ico">
 
     <link
     rel="stylesheet"
@@ -234,20 +235,25 @@
                 <h1 class="mt-5 pt-3">HAVE SOME QUESTIONS?</h1><br>
                 <p class="sub-heading lead pb-4 ">Questions unanswered? We are here to help you out.</p>
                 <div class="row g-5 align-items-start pb-5 ml-3">
-                    <div class="col-md-6 ">
+                    <div class="col-md-6 " >
+                        <form id="my-form">
+                            <div class="msg"></div>
                         <div class="pt-1">
                             <label>Name </label> <br>
-                            <input placeholder=" Enter Name" class="mt-2 form-control" type="text">
+                            <input placeholder=" Enter Name" class="mt-2 form-control" id="name" type="text">
                         </div>
                         <div class="pt-4">
                             <label>Email Id </label> <br>
-                            <input placeholder=" Enter Email" class="mt-2 form-control" type="email">
+                            <input placeholder=" Enter Email" class="mt-2 form-control" id="email" type="email">
                         </div>
                         <div class="pt-4">
                             <label>Message </label> <br>
-                            <textarea placeholder=" Send in your queries" class="mt-2 form-control"></textarea>
+                            <textarea placeholder=" Send in your queries" id="message" class="mt-2 form-control"></textarea>
                         </div><br>
-                        <button href="#" class="btn send ">Send</button>
+                        <input class="btn" type="submit" value="Send">
+                        <div class="send"></div>
+                        </form>
+                        
                     </div>
                     <div class="col-md-6 ">
                         <img src="img/undraw_contact_us_-15-o2 1 (1).svg" style="height: 300px;"
