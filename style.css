@@ -52,7 +52,7 @@ section:nth-child(even) {
 	border: 1px solid rgba(255, 255, 255, 0.125);
 	padding: 3%;
 	height: 40%;
-	max-width: 40%;
+	width: 90%;
 }
 
 img {
@@ -126,4 +126,16 @@ footer .d-none {
 
 .hello a:hover {
 	color: violet;
+}
+
+#nexuz {
+	background-image: url("./img//BG.png");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#nexuz .container * {
+	background: -webkit-linear-gradient(45deg, #ca2bf1, #20dbfa);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
