@@ -133,6 +133,8 @@ footer .d-none {
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+	padding: 5%;
+	text-align: center;
 }
 #nexuz .container * {
 	background: -webkit-linear-gradient(45deg, #ca2bf1, #20dbfa);
