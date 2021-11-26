@@ -46,8 +46,8 @@ section:nth-child(even) {
 
 .glass-container {
 	backdrop-filter: blur(19px) saturate(134%);
-	-webkit-backdrop-filter: blur(19px) saturate(134%);
-	background-color: rgba(0, 0, 0, 0.69);
+	/*-webkit-backdrop-filter: blur(19px) saturate(134%);  */
+	background-color: rgb(114 71 122 / 50%);
 	border-radius: 12px;
 	border: 1px solid rgba(255, 255, 255, 0.125);
 	padding: 3%;
