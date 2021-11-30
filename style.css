@@ -131,11 +131,17 @@ footer .d-none {
 #nexuz {
 	background-image: url("./img//BG.png");
 	background-position: center;
-	background-size: cover;
+	background-size:  100% 100%;
 	background-repeat: no-repeat;
+	padding: 5%;
+
+	text-align: center;
 }
+
+
 #nexuz .container * {
-	background: -webkit-linear-gradient(45deg, #ca2bf1, #20dbfa);
+	background: -webkit-linear-gradient(45deg, #ca2bf1, #bbc2c2);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
+
