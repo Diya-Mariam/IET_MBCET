@@ -22,7 +22,7 @@ function submitForm(e) {
   var branch = getElementVal("inputState");
   var batch = getElementVal("inputStates");
   var num = getElementVal("no");
-  var pic = getElementVal("myfile");
+  var pic = getElementVal("files");
 
   saveMessages(name, emailid, branch, batch, num, pic);
 
@@ -52,9 +52,23 @@ const saveMessages = (name, emailid, branch, batch, num, pic) => {
   });
 };
 
+const getElementVal = (id) => {
+    return document.getElementById(id).value;
+   
+}
 
- const getElementVal = (id) => {
-   return document.getElementById(id).value;
+let storageRef = firebase.storage().ref('Images');
+
+function uploadData() {
+  let file = document.getElementById("files").files[0];
+  console.log(file);
+
+  let thisRef = storageRef.child(file.name);
+  thisRef.put(file).then(res => {
+    console.log("Upload success");
+  }).catch(e => {
+    console.log('Error '+e);
+  })
 }
   
 
