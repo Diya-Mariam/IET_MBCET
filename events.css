@@ -6,7 +6,7 @@
 
 .bottomleft {
     position: absolute;
-    bottom: 24px;
+    bottom: 60px;
     left: 15px;
     color: white;
     font-size: 3.7rem;
@@ -82,7 +82,7 @@ img{
 
 footer {
 	width: 100%;
-	background-color: #9b479f;
+	background-color: #72477a;
 }
 
 .d-none,

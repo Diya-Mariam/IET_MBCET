@@ -1,0 +1,24 @@
+body {
+    background: #ece0ee;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+
+.alert{
+    width: 100%;
+    background: rgb(213, 152, 225);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    display: none;
+}
+
+#sub {
+    border-radius: 13px;
+}
+
+#sub:hover {
+    opacity: 0.8;
+}

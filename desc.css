@@ -10,18 +10,22 @@
     color: white;
 }
 
+.owl:hover {
+	transform: 8px;
+}
+
 
 footer {
 	width: 100%;
-	background-color: #9b479f;
+	background-color: #72477a;
 }
 
-.d-none,
-footer {
+
+footer .d-none {
 	margin-right: 767px;
 }
 
-.row a i,
+.row a,
 .hello p {
 	color: white;
 }
